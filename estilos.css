@@ -7,7 +7,7 @@ nav {
     margin-bottom: 20px;
 }
 nav a {
-    color: brown;
+    color: black;
     font-size: 20px;
     border: 1px solid green;
     padding: 10px;
@@ -26,6 +26,12 @@ section {
     border-radius: 5px;
 }
 
+section {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+
+}
 header {
     background-color: blueviolet;
     color: aqua;
@@ -38,6 +44,3 @@ body.about {
     color: rgb(255, 255, 255);
 }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.game-container {
-    width: 600px;
-}
